@@ -31,11 +31,17 @@ To run this project, you will need:
    OPENAI_API_KEY='your_api_key_here'
 
 ### Usage
-python path_to_chatbot.py
+- Run the chatbot:
+   python [filename].py
+- The chatbot will start, and you can interact with it by sending messages. The chatbot will utilize its tools to assist with grammar, synonyms, and definitions.
 
 ### How It Works
 - The application initializes language tools for grammar checking, synonym finding, and word definitions.
 - An agent is created to handle user queries, using the initialize_language_agent function.
 - For each user query, the agent processes the input and provides an appropriate response based on the integrated tools.
 - The chatbot ensures a user-friendly experience and maintains a rate limit for queries to manage server load and API usage effectively.
+
+### Additonal Chatbots
+
+- I have included two additional experimental chatbots using different LLMs (Feel free to modify them as desired)
 
